@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 148551705}
   - component: {fileID: 148551704}
   - component: {fileID: 148551703}
+  - component: {fileID: 148551707}
   m_Layer: 0
   m_Name: Red Cube
   m_TagString: Untagged
@@ -228,6 +229,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148551707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148551702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcd1c00cd14a9b4797dedf039d14a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 148551702}
 --- !u!1 &565877644
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +642,7 @@ GameObject:
   - component: {fileID: 1016467010}
   - component: {fileID: 1016467009}
   - component: {fileID: 1016467008}
+  - component: {fileID: 1016467012}
   m_Layer: 0
   m_Name: Yellow Cube
   m_TagString: Untagged
@@ -721,6 +736,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016467012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016467007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcd1c00cd14a9b4797dedf039d14a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 1016467007}
 --- !u!1 &1686499074
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +761,7 @@ GameObject:
   - component: {fileID: 1686499077}
   - component: {fileID: 1686499076}
   - component: {fileID: 1686499075}
+  - component: {fileID: 1686499079}
   m_Layer: 0
   m_Name: Blue Cube
   m_TagString: Untagged
@@ -826,6 +855,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686499079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686499074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcd1c00cd14a9b4797dedf039d14a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 1686499074}
 --- !u!1 &1787596102
 GameObject:
   m_ObjectHideFlags: 0
